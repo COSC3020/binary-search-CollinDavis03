@@ -1,6 +1,6 @@
 function binarySearch(list, element) {
     let left = 0;
-    let right = list.length -1; 
+    let right = list.length - 1; 
     
     while (left <= right) {
         const middle = Math.floor((left + right) / 2); 
